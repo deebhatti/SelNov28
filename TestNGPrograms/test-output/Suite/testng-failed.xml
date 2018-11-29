@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Edge Test(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="demo.CBT">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifySignInBtnVisibility"/>
+          <include name="verifySearchBtnStatusAfterEnteringText"/>
+          <include name="verifyText"/>
+        </methods>
+      </class> <!-- demo.CBT -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
