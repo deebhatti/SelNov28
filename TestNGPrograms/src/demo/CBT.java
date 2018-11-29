@@ -53,6 +53,7 @@ public class CBT {
 	public void verifySignInBtnVisibility() {
 		boolean signInBtnStatus = driver.findElement(By.id("login-submit")).isDisplayed();
 		Assert.assertTrue(signInBtnStatus);
+		//Today is Wednesday
 	}
 
 	
